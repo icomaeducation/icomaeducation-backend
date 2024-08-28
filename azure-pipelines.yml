@@ -35,8 +35,9 @@ jobs:
         platform: '$(buildPlatform)'
         configuration: '$(buildConfiguration)'
         
-    
-    - script: dotnet publish --configuration $(buildConfiguration) --output $(Build.ArtifactStagingDiretory)
+    - task: CmdLine@2
+      inputs:
+        script: dotnet publish --configuration $(buildConfiguration) --output $(Build.ArtifactStagingDiretory)
 
     - task: PublishBuildArtifacts@1
       inputs:
