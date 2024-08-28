@@ -14,7 +14,7 @@ variables:
   buildConfiguration: 'Release'
 
 jobs:
-  - job: BuildTest-Prod
+  - job: BuildTestProd
     displayName: 'Teste de Produção em Artefato'
     steps:
     - task: NuGetToolInstaller@1
