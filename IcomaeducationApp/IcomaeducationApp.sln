@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IcomaeducationApp.Domain", "IcomaeducationApp.Domain\IcomaeducationApp.Domain.csproj", "{789D0E20-1D40-4E16-91D5-43B4980826AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IcomaeducationApp.API", "IcomaeducationApp.API\IcomaeducationApp.API.csproj", "{19D910E2-35AA-4141-9F34-84CE43057D99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IcomaeducationApp.Infra.Data", "IcomaeducationApp.Infra.Data\IcomaeducationApp.Infra.Data.csproj", "{EE538036-4D9E-431D-A7EE-1A5F86F7609F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IcomaeducationApp.Infra.IoC", "IcomaeducationApp.Infra.IoC\IcomaeducationApp.Infra.IoC.csproj", "{D8E458E8-C714-4FC9-8B5B-5EFB7738FA27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IcomaeducationApp.Application", "IcomaeducationApp.Application\IcomaeducationApp.Application.csproj", "{7CC835B8-2628-445A-AFF2-E55B2ECC05C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IcomaeducationApp.Domain.Test", "IcomaeducationApp.Domain.Test\IcomaeducationApp.Domain.Test.csproj", "{E6810CC8-A92A-48F6-A372-1AAEC7A8D94D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{789D0E20-1D40-4E16-91D5-43B4980826AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{789D0E20-1D40-4E16-91D5-43B4980826AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{789D0E20-1D40-4E16-91D5-43B4980826AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{789D0E20-1D40-4E16-91D5-43B4980826AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19D910E2-35AA-4141-9F34-84CE43057D99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19D910E2-35AA-4141-9F34-84CE43057D99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19D910E2-35AA-4141-9F34-84CE43057D99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19D910E2-35AA-4141-9F34-84CE43057D99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE538036-4D9E-431D-A7EE-1A5F86F7609F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE538036-4D9E-431D-A7EE-1A5F86F7609F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE538036-4D9E-431D-A7EE-1A5F86F7609F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE538036-4D9E-431D-A7EE-1A5F86F7609F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8E458E8-C714-4FC9-8B5B-5EFB7738FA27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8E458E8-C714-4FC9-8B5B-5EFB7738FA27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8E458E8-C714-4FC9-8B5B-5EFB7738FA27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8E458E8-C714-4FC9-8B5B-5EFB7738FA27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CC835B8-2628-445A-AFF2-E55B2ECC05C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CC835B8-2628-445A-AFF2-E55B2ECC05C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CC835B8-2628-445A-AFF2-E55B2ECC05C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CC835B8-2628-445A-AFF2-E55B2ECC05C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6810CC8-A92A-48F6-A372-1AAEC7A8D94D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6810CC8-A92A-48F6-A372-1AAEC7A8D94D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6810CC8-A92A-48F6-A372-1AAEC7A8D94D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6810CC8-A92A-48F6-A372-1AAEC7A8D94D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5D79CFD9-BD61-4EFF-A604-A2041447E9CC}
+	EndGlobalSection
+EndGlobal
